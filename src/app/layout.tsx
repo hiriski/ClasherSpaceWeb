@@ -6,7 +6,7 @@ import { AppRouterCacheProvider } from '@mui/material-nextjs/v13-appRouter'
 // global styles
 import './globals.css'
 import { ThemeProvider } from '@mui/material'
-import theme from '@/theme'
+import { theme } from '@/configs'
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   weight: ['300', '400', '500', '700'],
